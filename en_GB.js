@@ -1,4 +1,4 @@
-export const enGB = {
+export default {
     loadingDictionaries: "Metadata is loading",
     loadingDictionariesFailed: "Loading of metadata failed",
     loadingPermissions: "Permissions are loading",
