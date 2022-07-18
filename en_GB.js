@@ -15,4 +15,4 @@ export default {
     repeatNewPassword: "Repeat new password",
     changePassword: "Change password",
     incorrectPassword: "Password is incorrect",
-};
+}
