@@ -13,7 +13,6 @@ export default {
 'forgotPassword':'Mot de passe oublié?',
 'resetPassword':'Réinitialisation du mot de passe',
 'authentication.description':'Avez-vous déjà un compte d’utilisateur? Alors saisissez vos données de connexion ou inscrivez-vous.',
-'authentication.initializationError':'Une erreur est survenue lors de l'initialisation du processus d'authentification',
 'home':'Accueil',
 'dateRange':'Plage de dates',
 'organizationStructure':'Structure organisationnelle',
