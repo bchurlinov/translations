@@ -1,5 +1,5 @@
 export default {
-'passwordValidationRules': minLength => `Password must be at least ${minLength} characters long and must contain uppercase letters, lowercase letters, numbers and a special character.`,
+'passwordValidationRules':'minLength => `Password has to be at least ${minLength} characters long and must contain uppercase letters, lowercase letters, numbers and a special character.`',
 'loadingDictionaries':'Metadata is loading',
 'loadingDictionariesFailed':'Loading of metadata failed',
 'loadingPermissions':'Permissions are loading',
