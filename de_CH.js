@@ -14,7 +14,7 @@ export default {
 'newPassword':'Neues Passwort',
 'repeatNewPassword':'Neues Passwort wiederholen',
 'forgotPassword':'Passwort vergessen?',
-'changePassword':'Passwort ändern',
+'changePassword':'Passwort änderns',
 'resetPassword':'Passwort zurücksetzen',
 'incorrectPassword':'Passwort ist nicht korrekt.',
 'repeatedPasswordMismatchError':'Neues Passwort stimmt nicht überein.',
