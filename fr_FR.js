@@ -19,7 +19,6 @@ export default {
 'proAnalytics':'ProAnalytics',
 'proAnalytics.title':'ProAnalytics',
 'proAnalytics.dashboard':'ProAnalytics Dashboard',
-'proAnalytics.selectOrganisationNodeRequest':'Veuillez d'abord mettre le filtre Structure organisationnelle',
 'proAnalytics.jobCountStatistics':'Nombre de postes',
 'name':'',
 'currentPassword':'french translation',
