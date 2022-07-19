@@ -22,7 +22,7 @@ export default {
 'passwordUpperCaseLetterError':'',
 'passwordLowerCaseLetterError':'',
 'passwordDigitError':'',
-'currentPasswordIsRequiredError':'s',
+'currentPasswordIsRequiredError':'Test',
 'newPasswordIsRequiredError':'',
 'passwordConfirmationIsRequiredError':'',
 'applyNewPassword':'test',
