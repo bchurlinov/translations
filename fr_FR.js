@@ -25,7 +25,7 @@ export default {
 'newPassword':'',
 'repeatNewPassword':'',
 'changePassword':'',
-'incorrectPassword':'',
+'incorrectPassword':'French translation',
 'repeatedPasswordMismatchError':'',
 'passwordSpecialCharacterError':'',
 'passwordUpperCaseLetterError':'',
