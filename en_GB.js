@@ -38,7 +38,7 @@ export default {
 'cockpit.myJobs':'Cockpits',
 'proAnalytics':'',
 'proAnalytics.title':'',
-'proAnalytics.dashboard':'',
+'proAnalytics.dashboard':'dashboard',
 'proAnalytics.selectOrganisationNodeRequest':'',
 'proAnalytics.jobCountStatistics':'',
 'proAnalytics.performanceStatistics':'',
