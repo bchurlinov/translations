@@ -29,7 +29,7 @@ export default {
 'passwordChangeRequestFailed':'',
 'passwordChangeSuccess':'',
 'register':'',
-'authentication.description':'auth descriptionssss',
+'authentication.description':'auth descriptions',
 'authentication.initializationError':'authentication initialization errosssr',
 'insufficientPermissions':'',
 'home':'',
