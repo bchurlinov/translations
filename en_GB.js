@@ -34,7 +34,7 @@ export default {
 'authentication.initializationError':'authentication initialization errosssr',
 'insufficientPermissions':'',
 'home':'',
-'dateRange':'date range',
+'dateRange':'date ranges',
 'organizationStructure':'',
 'cockpit.myJobs':'Cockpit stuff',
 'proAnalytics':'',
