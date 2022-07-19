@@ -35,7 +35,7 @@ export default {
 'home':'',
 'dateRange':'',
 'organizationStructure':'',
-'cockpit.myJobs':'Cockipt my Jobs',
+'cockpit.myJobs':'Cockit',
 'proAnalytics':'',
 'proAnalytics.title':'',
 'proAnalytics.dashboard':'',
