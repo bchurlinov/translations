@@ -23,7 +23,7 @@ export default {
 'currentPasswordIsRequiredError':'Um ein neues Passwort zu setzen, geben Sie bitte das Aktuelle auch ein.',
 'newPasswordIsRequiredError':'Neues Passwort ist ein Pflichtfeld.',
 'passwordConfirmationIsRequiredError':'Bitte geben Sie das neue Password nochmal ein.',
-'applyNewPassword':'Neues Passwort Ã¼bernehmen',
+'applyNewPassword':'Neues Passwort üüüübernehmen',
 'passwordChangeRequestFailed':'Beim Speichern des neuen Passworts auf dem Server ist ein Fehler aufgetreten.',
 'passwordChangeSuccess':'Passwort wurde aktualisiert.',
 'register':'Registrieren',
