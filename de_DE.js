@@ -85,7 +85,7 @@ export default {
 'proAnalytics.viewsPerOnlineDay':'',
 'proAnalytics.clicksPerOnlineDay':'',
 'proAnalytics.applicationsPerOnlineDay':'',
-'proAnalytics.applications':'',
+'proAnalytics.applications':'test de',
 'proAnalytics.clicks':'',
 'proAnalytics.deviceRatio':'',
 'proAnalytics.activeJobAds':'',
