@@ -30,7 +30,7 @@ export default {
 'forgotPassword':'Passwort vergessen?',
 'resetPassword':'Passwort zurücksetzen',
 'authentication.description':'auth de',
-'authentication.initializationError':'',
+'authentication.initializationError':'auth initi error',
 'insufficientPermissions':'',
 'home':'',
 'dateRange':'',
