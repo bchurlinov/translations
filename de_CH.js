@@ -10,7 +10,7 @@ export default {
 'username':'Benutzername',
 'name':'Name',
 'password':'Passwort',
-'currentPassword':'Aktuelles Passwort',
+'currentPassword':'Aktuelles Passwortttt',
 'newPassword':'Neues Passwort',
 'repeatNewPassword':'Neues Passwort wiederholen',
 'forgotPassword':'Passwort vergessen?',
