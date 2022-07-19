@@ -30,7 +30,7 @@ export default {
 'passwordChangeSuccess':'',
 'register':'',
 'authentication.description':'auth descriptionssss',
-'authentication.initializationError':'authentication initialization error',
+'authentication.initializationError':'authentication initialization errosssr',
 'insufficientPermissions':'',
 'home':'',
 'dateRange':'date range',
