@@ -6,7 +6,7 @@ export default {
 'login':'Anmelden',
 'loginFailed':'Einloggen ist fehlgeschlagen.',
 'logout':'Abmelden',
-'email':'E-Mail',
+'email':'Swiss email',
 'username':'Benutzername',
 'name':'Name',
 'password':'Passwort',
