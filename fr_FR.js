@@ -1,6 +1,6 @@
 export default {
 'loadingDictionaries':'Métadonnées en cours de chargement',
-'loadingDictionariesFailed':'Échec du chargement des métadonnées',
+'loadingDictionariesFailed':'Échec du chargement des métadonnéess',
 'loadingPermissions':'Autorisations en cours de chargement',
 'loadingPermissionsFailed':'Échec du chargement des autorisations',
 'login':'Connexion',
@@ -93,4 +93,6 @@ export default {
 'proAnalytics.search':'',
 'proAnalytics.search.placeholder':'',
 'proAnalytics.search.recruiterKeyword':'',
+'authentication.initializationError':'',
+'proAnalytics.selectOrganisationNodeRequest':'',
 }
