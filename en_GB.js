@@ -33,7 +33,7 @@ export default {
 'authentication.initializationError':'authentication initialization error',
 'insufficientPermissions':'',
 'home':'',
-'dateRange':'',
+'dateRange':'date range',
 'organizationStructure':'',
 'cockpit.myJobs':'Cockit',
 'proAnalytics':'',
