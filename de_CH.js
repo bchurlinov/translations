@@ -35,7 +35,7 @@ export default {
 'home':'Swiss Home',
 'dateRange':'Laufzeit',
 'organizationStructure':'Organisationsstruktur',
-'cockpit.myJobs':'Meine Stellen',
+'cockpit.myJobs':'Meine Stellen Auf',
 'proAnalytics':'ProAnalytics',
 'proAnalytics.title':'ProAnalytics',
 'proAnalytics.dashboard':'ProAnalytics Dashboard',
