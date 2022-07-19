@@ -75,7 +75,7 @@ export default {
 'proAnalytics.careerCenterStatisticsActionType.selection':'',
 'proAnalytics.viewBy.jobs':'',
 'proAnalytics.candidateJourneyStatistics':'',
-'proAnalytics.costsStatistics':'',
+'proAnalytics.costsStatistics':'costs',
 'proAnalytics.costsProApplication':'',
 'proAnalytics.costsProMedium':'',
 'proAnalytics.costsPerMediumStatistics':'',
