@@ -32,7 +32,7 @@ export default {
 'authentication.description':'Haben Sie bereits ein Login? Dann geben Sie Ihre Anmeldedaten ein oder registrieren Sie sich.',
 'authentication.initializationError':'Bei der Initialisierung des Authentifizierungsprozesses ist ein Fehler aufgetreten.',
 'insufficientPermissions':'Unzureichende Berechtigungen',
-'home':'Home',
+'home':'Swiss Home',
 'dateRange':'Laufzeit',
 'organizationStructure':'Organisationsstruktur',
 'cockpit.myJobs':'Meine Stellen',
