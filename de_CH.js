@@ -193,7 +193,6 @@ export default {
 	"total": "Total",
 	"cost": "Kosten",
 	"date": "Datum",
-	"other": (count) => (count !== undefined ? `Andere (${count})` : "Andere"),
 	"showMore": "Mehr",
 	"showLess": "Weniger",
 	"search": "Suchen",
