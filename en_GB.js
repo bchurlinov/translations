@@ -172,7 +172,7 @@ export default {
 'mediaType':'',
 'allMedia':'',
 'fieldOfActivity':'',
-'allFieldsOfActivity':'',
+'allFieldsOfActivity':'All fields of activity',
 'industry':'',
 'allIndustries':'',
 'atsId':'',
