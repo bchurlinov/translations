@@ -212,3 +212,4 @@ export default {
 	"information": "Information",
 	"webMobile": "Verteilung Web-Mobile",
 	"back": "Zurück",
+}
