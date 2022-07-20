@@ -174,7 +174,7 @@ export default {
 'fieldOfActivity':'',
 'allFieldsOfActivity':'All fields of activity',
 'industry':'',
-'allIndustries':'',
+'allIndustries':'All industires',
 'atsId':'',
 'apply':'',
 'validator.username.required':'',
