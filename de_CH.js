@@ -46,8 +46,6 @@ export default {
 	"proAnalytics.dashboard": "ProAnalytics Dashboard",
 	"proAnalytics.selectOrganisationNodeRequest": "Bitte setzen Sie zuerst den Filter Organisationsstruktur ein.",
 	"proAnalytics.jobCountStatistics": "Anzahl Stellen",
-	"proAnalytics.jobCountStatistics.average": (value) =>
-		`${Number(value).toLocaleString("de-CH", { maximumFractionDigits: 2 })} Offene Stellen im Durchschnitt/Tag`,
 	"proAnalytics.performanceStatistics": "Performance",
 	"proAnalytics.performanceStatisticsActionType": "AktionsTyp",
 	"proAnalytics.viewBy.fieldOfActivity": "Berufsgruppe",
