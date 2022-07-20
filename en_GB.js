@@ -170,7 +170,7 @@ export default {
 'media.ppd':'',
 'media.private':'',
 'mediaType':'',
-'allMedia':'',
+'allMedia':'All Media',
 'fieldOfActivity':'',
 'allFieldsOfActivity':'All fields of activity',
 'industry':'',
