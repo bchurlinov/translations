@@ -26,7 +26,7 @@ export default {
 'currentPasswordIsRequiredError':'Testsss',
 'newPasswordIsRequiredError':'',
 'passwordConfirmationIsRequiredError':'',
-'applyNewPassword':'test onessss',
+'applyNewPassword':'test one',
 'passwordChangeRequestFailed':'',
 'passwordChangeSuccess':'',
 'register':'',
