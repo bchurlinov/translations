@@ -1,11 +1,4 @@
 export default {
-	'dateFormatter': date => date ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - ',
-    'dateFormatter.shortDate': date => date ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - ',
-    'monthFormatter': date => date ? date.toLocaleString('de-CH', {year: 'numeric', month: 'long'}) : ' - ', // November 2021
-    'weekFormatter': date => date ? `W${getWeek(date)} ${date.getFullYear()}` : ' - ', // W28 2021
-    'priceFormatter': (price, currency) => (currency&&price) ? price.toLocaleString('de-CH', {style: 'currency', currency}) : price ? price.toLocaleString('de-CH', {minimumFractionDigits: 2, maximumFractionDigits: 2}):0,
-    'numberFormatter': (number) => number ? number.toLocaleString('de-CH', {minimumFractionDigits: 0, maximumFractionDigits: 0}):0,
-    'twoDigitFormatter': (number) => number ? number.toLocaleString('de-CH', {minimumFractionDigits: 2, maximumFractionDigits: 2}):0,
 	"loadingDictionaries": "Metadaten werden geladen.",
 	"loadingDictionariesFailed": "Laden der Metadaten ist fehlgeschlagen.",
 	"loadingPermissions": "Berechtigungen werden geladen.",
