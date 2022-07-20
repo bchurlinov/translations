@@ -102,40 +102,6 @@ export default {
 	"proAnalytics.search": "Suche",
 	"proAnalytics.search.placeholder": "Stellentitel, Recruiter, Auftrags-, Publikations- oder Stellennummer",
 	"proAnalytics.search.recruiterKeyword": "Recruiter",
-	"proAnalytics.search.termEverywhere": ({ searchTerm, hitCount }) =>
-		`Ergebnisse für '${searchTerm}' ${hitCount === undefined ? '' : `(${hitCount})`}`,
-	"proAnalytics.search.termInColumn": ({ searchTerm, fieldName, hitCount }) =>
-		`Ergebnisse für '${searchTerm}' in ${fieldName} (${hitCount})`,
-	"proAnalytics.search.resultInfo": ({ searchTerm, fieldName, hitCount }) =>
-		`${hitCount} ${hitCount === 1 ? "Ergebnis" : "Ergebnisse"} für ${searchTerm} in ${fieldName}`,
-	"proAnalytics.search.jobTitle": (jobTitle) => `Job-Titel: '${jobTitle}'`,
-	"proAnalytics.search.externalJobTitle": (jobTitle) => `Externer Job-Titel: '${jobTitle}'`,
-	"proAnalytics.search.postingId": (id) => `Stellennummer: '${id}'`,
-	"proAnalytics.search.publicationId": (id) => `Publikationsnummer: '${id}'`,
-	"proAnalytics.search.orderId": (id) => `Auftragsnummer: '${id}'`,
-	"proAnalytics.dateRange.autoCorrectionWarning": ({ start, end }) =>
-		`Es stehen Daten der letzten zwei Jahre zur Verfügung. Ihr Filter wurde dementsprechend angepasst.`,
-	"proAnalytics.dictionaries.error": ({ logNumber }) =>
-		"Filter Dictionaries konnte nicht aktualisiert werden. Technische Details finden Sie im Log #${logNumber}.",
-	"proAnalytics.search.error": ({ logNumber }) =>
-		`Die Suche ist fehlgeschlagen. Technische Details finden Sie im Log #${logNumber}.`,
-	"proAnalytics.jobCount.error": ({ logNumber }) =>
-		`Anzahl Stellen konnte nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`,
-	"proAnalytics.performance.error": ({ logNumber }) =>
-		`Daten von Performance konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`,
-	"proAnalytics.candidateJourney.error": ({ logNumber }) =>
-		`Daten von Candidate Journey konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`,
-	"proAnalytics.costs.error": ({ logNumber }) =>
-		`Kostendaten konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`,
-	"proAnalytics.kpi.error": ({ logNumber }) =>
-		`KPI-Daten konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`,
-	"proAnalytics.careerCenter.error": ({ logNumber }) =>
-		`Stellenmarktstatistiken konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`,
-	"proAnalytics.moreFilters": "Mehr Filter",
-	"proAnalytics.lessFilters": "Weniger Filter",
-	"proAnalytics.resetFilters": "Alle zurücksetzen",
-	"proAnalytics.maxDatasetsNumberInfo": (maxDatasetsNumber) =>
-		`Sie können maximal ${maxDatasetsNumber} Datasets anzeigen.`,
 	"proAnalytics.view.byJobAd": "nach Stelle",
 	"proAnalytics.view.byMedium": "nach Medium",
 	"proAnalytics.view.byFieldOfActivity": "nach Berufsgruppe",
