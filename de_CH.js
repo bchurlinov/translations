@@ -210,10 +210,6 @@ export default {
 	"kpiStatistics.stellen": "Stellen",
 	"kpiStatistics.publications": "Publikationen",
 	"kpiStatistics.costs": "Kosten",
-	"checkLog": (logNumber) => `Technische Details finden Sie im Log #${logNumber}.`,
-	"error": "Fehler",
-	"unexpectedError": ({ logNumber }) =>
-		`Etwas ist schiefgelaufen. Technische Details finden Sie im Log #${logNumber}.`,
 	"refreshRequest": "Bitte laden Sie die Applikation neu oder versuchen Sie es später nochmals.",
 	"recentlyUsed": "Zuletzt benutzt",
 	"information": "Information",
