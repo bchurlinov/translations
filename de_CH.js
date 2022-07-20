@@ -1,5 +1,5 @@
 export default {
-	"checkLog": (logNumber) => "Technische Details finden Sie im Log" + "#" + logNumber + ".",
+	"checkLog": "Technische Details finden Sie im Log" + "#" + logNumber + ".",
 	"loadingDictionaries": "Metadaten werden geladen.",
 	"loadingDictionariesFailed": "Laden der Metadaten ist fehlgeschlagen.",
 	"loadingPermissions": "Berechtigungen werden geladen.",
