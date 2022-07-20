@@ -205,5 +205,4 @@ export default {
 'recentlyUsed':'Zuletzt benutzt',
 'information':'Information',
 'webMobile':'Verteilung Web-Mobile',
-'back':'Zurück',
 }
