@@ -181,7 +181,7 @@ export default {
 'validator.password.required':'',
 'validator.email.required':'',
 'validator.email.format':'',
-'all':'test',
+'all':'testss',
 'total':'',
 'cost':'',
 'date':'',
