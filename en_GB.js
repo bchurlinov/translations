@@ -119,7 +119,7 @@ export default {
 'proAnalytics.dateRange.autoCorrectionWarning': ({ start, end }) =>
 		`Es stehen Daten der letzten zwei Jahre zur Verfügung. Ihr Filter wurde dementsprechend angepasst.`, 
 'proAnalytics.dictionaries.error': ({ logNumber }) =>
-		Filter Dictionaries konnte nicht aktualisiert werden. Technische Details finden Sie im Log #${logNumber}., 
+		'Filter Dictionaries konnte nicht aktualisiert werden. Technische Details finden Sie im Log #${logNumber}.', 
 'proAnalytics.search.error': ({ logNumber }) =>
 		`Die Suche ist fehlgeschlagen. Technische Details finden Sie im Log #${logNumber}.`, 
 'proAnalytics.jobCount.error': ({ logNumber }) =>
