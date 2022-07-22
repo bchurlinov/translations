@@ -4,4 +4,5 @@ export default {
 'allFieldsOfActivity':'All fields of activity',
 'allIndustries':'test',
 'allMedia':'grid',
+'allRecruiters':'test',
 }
