@@ -23,7 +23,7 @@ export default {
 	'currentPasswordIsRequiredError': 'To change your password, please also enter your current password.',
 	'passwordConfirmationIsRequiredError': 'New password is a mandatory field.',
 	'applyNewPassword': 'Apply new password',
-	'passwordChangeFailed': logNumber => `Password could not be changed. Technical details can be found in log #${logNumber}.`,
+	'passwordChangeFailed': logNumber => "Password could not be changed. Technical details can be found in log" + "#" + logNumber,
 	'passwordChangeRequestFailed': 'An error occured while saving the new password on the server.',
 	'passwordChangeSuccess': 'Password was changed.',
 	'register': 'Register',
