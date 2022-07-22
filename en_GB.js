@@ -1,11 +1,4 @@
 export default {
-	'dateFormatter': date => date ? `${(date.getMonth() + 1)}/${date.getDate()}/${date.getFullYear()}` : ' - ', // 12/31/2021
-    'dateFormatter.shortDate': date => date ? `${(date.getMonth() + 1)}/${date.getDate()}/${date.getFullYear()}` : ' - ', // 12/31/2021
-    'monthFormatter': date => date ? date.toLocaleString('en-US', {year: 'numeric', month: 'long'}) : ' - ', // November 2021
-    'weekFormatter': date => date ? `W${getWeek(date)} ${date.getFullYear()}` : ' - ', // W28 2021
-    'priceFormatter': (price, currency) => currency ? price.toLocaleString('en-US', {style: 'currency', currency}) : price.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}),
-    'numberFormatter': (number) => number ? number.toLocaleString('en-US', {minimumFractionDigits: 0, maximumFractionDigits: 0}):0,
-    'twoDigitFormatter': (number) => number ? number.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}):0,
 	'loadingDictionaries': 'Metadata is loading',
 	'loadingDictionariesFailed': 'Loading of metadata failed',
 	'loadingPermissions': 'Permissions are loading',
@@ -22,8 +15,6 @@ export default {
 	'repeatNewPassword': 'Repeat new password',
 	'changePassword': 'Change password',
 	'incorrectPassword': 'Password is incorrect',
-	'passwordValidationRules': minLength => `Password must be at least ${minLength} characters long and must contain uppercase letters, lowercase letters, numbers and a special character.`,
-	'passwordLengthError': (minLength, maxLength) => `Password must be at least ${minLength} characters long.`,
 	'repeatedPasswordMismatchError': 'New password is not identical.',
 	'passwordSpecialCharacterError': 'Password must contain at least one special character.',
 	'passwordUpperCaseLetterError': 'Password must contain at least one uppercase letter.',
@@ -51,8 +42,6 @@ export default {
 	'proAnalytics.dashboard': 'ProAnalytics dashboard',
 	'proAnalytics.selectOrganisationNodeRequest': 'Please set the Organisational structure filter first.',
 	'proAnalytics.jobCountStatistics': 'Number of vacancies',
-	'proAnalytics.jobCountStatistics.average': (value) =>
-		`${Number(value).toLocaleString('de-CH', {maximumFractionDigits: 2})} Vacancies average/per day`,
 	'proAnalytics.performanceStatistics': 'Performance',
 	'proAnalytics.performanceStatisticsActionType': 'ActionType',
 	'proAnalytics.viewBy.fieldOfActivity': 'Field of activity',
@@ -106,40 +95,6 @@ export default {
 	'proAnalytics.mobile': 'Mobile',
 	'proAnalytics.search': 'Search',
 	'proAnalytics.search.placeholder': 'job title, recruiter, order number, publication number or job number',
-	'proAnalytics.search.recruiterKeyword': 'Recruiter',
-	'proAnalytics.search.termEverywhere': ({searchTerm, hitCount}) => `Results for '${searchTerm}' ${hitCount === undefined ? '' : `(${hitCount})`}`,
-	'proAnalytics.search.termInColumn': ({searchTerm, fieldName, hitCount}) =>
-		`Results for '${searchTerm}' in ${fieldName} (${hitCount})`,
-	'proAnalytics.search.resultInfo': ({searchTerm, fieldName, hitCount}) =>
-		`${hitCount} ${hitCount === 1 ? 'Result' : 'Results'} for ${searchTerm} in ${fieldName}`,
-	'proAnalytics.search.jobTitle': (jobTitle) => `Job-title: '${jobTitle}'`,
-	'proAnalytics.search.externalJobTitle': (jobTitle) => `External Job-title: '${jobTitle}'`,
-	'proAnalytics.search.postingId': (id) => `Job ID: '${id}'`,
-	'proAnalytics.search.publicationId': (id) => `Publication ID: '${id}'`,
-	'proAnalytics.search.orderId': (id) => `Order ID: '${id}'`,
-	'proAnalytics.dateRange.autoCorrectionWarning': ({start, end}) =>
-		`Data from the last two years is available. Your filter was modified accordingly.`,
-	'proAnalytics.dictionaries.error': ({logNumber}) =>
-		`Filter dictionaries could not be updated. Technical details can be found in log #${logNumber}.`,
-	'proAnalytics.search.error': ({logNumber}) =>
-		`The search failed. Technical details can be found in log #${logNumber}.`,
-	'proAnalytics.jobCount.error': ({logNumber}) =>
-		`Number of vacancies could not be loaded. Technical details can be found in log #${logNumber}.`,
-	'proAnalytics.performance.error': ({logNumber}) =>
-		`Performance data could not be loaded. Technical details can be found in log #${logNumber}.`,
-	'proAnalytics.candidateJourney.error': ({logNumber}) =>
-		`Candidate journey data could not be loaded. Technical details can be found in log #${logNumber}.`,
-	'proAnalytics.costs.error': ({logNumber}) =>
-		`Cost data could not be loaded. Technical details can be found in log #${logNumber}.`,
-	'proAnalytics.kpi.error': ({logNumber}) =>
-		`KPI-data could not be loaded. Technical details can be found in log #${logNumber}.`,
-	'proAnalytics.careerCenter.error': ({logNumber}) =>
-		`Career center data could not be loaded. Technical details can be found in log #${logNumber}.`,
-	'proAnalytics.moreFilters': 'More filters',
-	'proAnalytics.lessFilters': 'Fewer filters',
-	'proAnalytics.resetFilters': 'Reset all',
-	'proAnalytics.maxDatasetsNumberInfo': (maxDatasetsNumber) =>
-		`You can display a maximum of ${maxDatasetsNumber} datasets.`,
 	'proAnalytics.view.byJobAd': 'by job',
 	'proAnalytics.view.byMedium': 'by medium',
 	'proAnalytics.view.byFieldOfActivity': 'by professional category',
@@ -229,7 +184,6 @@ export default {
 	'total': 'Total',
 	'cost': 'Costs',
 	'date': 'Date',
-	'other': (count) => (count !== undefined ? `Other (${count})` : 'Other'),
 	'showMore': 'More',
 	'showLess': 'Less',
 	'state': 'Status',
@@ -239,7 +193,6 @@ export default {
 	'clicks': 'Clicks',
 	'views': 'Views',
 	'search': 'Search',
-	'exportError': (logNumber) => `Export failed. Technical details have been saved in log No.${logNumber}`,
 	'jobAd': 'Job',
 	'jobId': "Job ID",
 	'jobAd.internalTitle': 'Title (internal)',
@@ -248,9 +201,6 @@ export default {
 	'kpiStatistics.stellen': 'Jobs',
 	'kpiStatistics.publications': 'Publications',
 	'kpiStatistics.costs': 'Costs',
-	'checkLog': (logNumber) => `Technical details can be found in log #${logNumber}.`,
-	'unexpectedError': ({logNumber}) => `Something went wrong. Technical details can be found in log #${logNumber}.`,
-	'refreshRequest': 'Please reload the application or try again later',
 	'recentlyUsed': 'Last used',
 	'information': 'Information',
 	"webMobile": "Web-Mobile Distribution",
