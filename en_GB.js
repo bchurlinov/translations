@@ -249,7 +249,7 @@ export default {
 'kpiStatistics.stellen': 'Jobs', 
 'kpiStatistics.publications': 'Publications', 
 'kpiStatistics.costs': 'Costs', 
-'checkLog': (logNumber) => `Technical details can be found in log #${logNumber}.`, 
+'checkLog': '(logNumber) => `Technical details WILL BE FOUND in log #${logNumber}.`', 
 'unexpectedError': ({logNumber}) => `Something went wrong. Technical details can be found in log #${logNumber}.`, 
 'refreshRequest': 'Please reload the application or try again later', 
 'recentlyUsed': 'Last used', 
