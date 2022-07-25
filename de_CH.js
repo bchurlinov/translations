@@ -1,5 +1,5 @@
 export default {
-'dateFormatter': date => date ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - '', 
+'dateFormatter': date => date ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - ', 
 'dateFormatter.shortDate': date => date ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - ', 
 'monthFormatter': date => date ? date.toLocaleString('de-CH', {year: 'numeric', month: 'long'}) : ' - ', 
 'weekFormatter': date => date ? `W${getWeek(date)} ${date.getFullYear()}` : ' - ', 
