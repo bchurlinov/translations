@@ -1,11 +1,11 @@
 export default {
-'dateFormatter': dates => dates ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - ', 
-'dateFormatter.shortDate':     date => date ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - '    , 
-'monthFormatter':     date => date ? date.toLocaleString('de-CH', {year: 'numeric', month: 'long'}) : ' - '    , 
-'weekFormatter':     date => date ? `W${getWeek(date)} ${date.getFullYear()}` : ' - '    , 
-'priceFormatter':     (price, currency) => (currency&&price) ? price.toLocaleString('de-CH', {style: 'currency', currency}) : price ? price.toLocaleString('de-CH', {minimumFractionDigits: 2, maximumFractionDigits: 2}):0    , 
-'numberFormatter':     (number) => number ? number.toLocaleString('de-CH', {minimumFractionDigits: 0, maximumFractionDigits: 0}):0    , 
-'twoDigitFormatter':     (number) => number ? number.toLocaleString('de-CH', {minimumFractionDigits: 2, maximumFractionDigits: 2}):0    , 
+'dateFormatter': 'date => date ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - '', 
+'dateFormatter.shortDate': date => date ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - ', 
+'monthFormatter': date => date ? date.toLocaleString('de-CH', {year: 'numeric', month: 'long'}) : ' - ', 
+'weekFormatter': date => date ? `W${getWeek(date)} ${date.getFullYear()}` : ' - ', 
+'priceFormatter': (price, currency) => (currency&&price) ? price.toLocaleString('de-CH', {style: 'currency', currency}) : price ? price.toLocaleString('de-CH', {minimumFractionDigits: 2, maximumFractionDigits: 2}):0, 
+'numberFormatter': (number) => number ? number.toLocaleString('de-CH', {minimumFractionDigits: 0, maximumFractionDigits: 0}):0, 
+'twoDigitFormatter': (number) => number ? number.toLocaleString('de-CH', {minimumFractionDigits: 2, maximumFractionDigits: 2}):0, 
 'loadingDictionaries': '   Metadaten werden geladen.   ', 
 'loadingDictionariesFailed': '   Laden der Metadaten ist fehlgeschlagen.   ', 
 'loadingPermissions': '   Berechtigungen werden geladen.   ', 
@@ -21,12 +21,12 @@ export default {
 'newPassword': '   Neues Passwort   ', 
 'repeatNewPassword': '   Neues Passwort wiederholen   ', 
 'forgotPassword': '   Passwort vergessen?   ', 
-'changePassword': '   Passwort Ã¤ndern   ', 
-'resetPassword': '   Passwort zurÃ¼cksetzen   ', 
+'changePassword': '   Passwort ändern   ', 
+'resetPassword': '   Passwort zurücksetzen   ', 
 'incorrectPassword': '   Passwort ist nicht korrekt.   ', 
-'passwordValidationRules':     minLength => `Passwort muss mindestens ${minLength} Zeichen lang sein und aus Gross-, Kleinbuchstaben, Zahlen und einem Sonderzeichen bestehen.`    , 
-'passwordLengthError':     (minLength, maxLength) => `Passwort muss mindestens ${minLength} Zeichen lang sein.`    , 
-'repeatedPasswordMismatchError': '   Neues Passwort stimmt nicht Ã¼berein.   ', 
+'passwordValidationRules': minLength => `Passwort muss mindestens ${minLength} Zeichen lang sein und aus Gross-, Kleinbuchstaben, Zahlen und einem Sonderzeichen bestehen.`, 
+'passwordLengthError': (minLength, maxLength) => `Passwort muss mindestens ${minLength} Zeichen lang sein.`, 
+'repeatedPasswordMismatchError': '   Neues Passwort stimmt nicht überein.   ', 
 'passwordSpecialCharacterError': '   Passwort muss mindestens ein Sonderzeichen enthalten.   ', 
 'passwordUpperCaseLetterError': '   Passwort muss mindestens einen Grossbuchstaben enthalten   ', 
 'passwordLowerCaseLetterError': '   Passwort muss mindestens einen Kleinbuchstaben enthalten.   ', 
@@ -34,8 +34,8 @@ export default {
 'currentPasswordIsRequiredError': '   Um ein neues Passwort zu setzen, geben Sie bitte das Aktuelle auch ein.   ', 
 'newPasswordIsRequiredError': '   Neues Password ist ein Pflichtfeld.   ', 
 'passwordConfirmationIsRequiredError': '   Bitte geben Sie das neue Passwort nochmal ein.   ', 
-'applyNewPassword': '   Neues Password Ã¼bernehmen   ', 
-'passwordChangeFailed':     logNumber => `Password konnte nicht aktualisiert werden. Technische Details finden Sie im Log #${logNumber}.`    , 
+'applyNewPassword': '   Neues Password übernehmen   ', 
+'passwordChangeFailed': logNumber => `Password konnte nicht aktualisiert werden. Technische Details finden Sie im Log #${logNumber}.`, 
 'passwordChangeRequestFailed': '   Beim Speichern des neuen Passworts auf dem Server ist ein Fehler aufgetreten.   ', 
 'passwordChangeSuccess': '   Password wurde aktualisiert.   ', 
 'register': '   Registrieren   ', 
@@ -51,8 +51,8 @@ export default {
 'proAnalytics.dashboard': '   ProAnalytics Dashboard   ', 
 'proAnalytics.selectOrganisationNodeRequest': '   Bitte setzen Sie zuerst den Filter Organisationsstruktur ein.   ', 
 'proAnalytics.jobCountStatistics': '   Anzahl Stellen   ', 
-'proAnalytics.jobCountStatistics.average':     (value) =>
-		`${Number(value).toLocaleString('de-CH', { maximumFractionDigits: 2 })} Offene Stellen im Durchschnitt/Tag`    , 
+'proAnalytics.jobCountStatistics.average': (value) =>
+		`${Number(value).toLocaleString('de-CH', { maximumFractionDigits: 2 })} Offene Stellen im Durchschnitt/Tag`, 
 'proAnalytics.performanceStatistics': '   Performance   ', 
 'proAnalytics.performanceStatisticsActionType': '   AktionsTyp   ', 
 'proAnalytics.viewBy.fieldOfActivity': '   Berufsgruppe   ', 
@@ -107,46 +107,46 @@ export default {
 'proAnalytics.search': '   Suche   ', 
 'proAnalytics.search.placeholder': '   Stellentitel, Recruiter, Auftrags-, Publikations- oder Stellennummer   ', 
 'proAnalytics.search.recruiterKeyword': '   Recruiter   ', 
-'proAnalytics.search.termEverywhere':     ({ searchTerm, hitCount }) =>
-		`Ergebnisse fÃ¼r '${searchTerm}' ${hitCount === undefined ? '' : `(${hitCount})`}`    , 
-'proAnalytics.search.termInColumn':     ({ searchTerm, fieldName, hitCount }) =>
-		`Ergebnisse fÃ¼r '${searchTerm}' in ${fieldName} (${hitCount})`    , 
-'proAnalytics.search.resultInfo':     ({ searchTerm, fieldName, hitCount }) =>
-		`${hitCount} ${hitCount === 1 ? 'Ergebnis' : 'Ergebnisse'} fÃ¼r ${searchTerm} in ${fieldName}`    , 
-'proAnalytics.search.jobTitle':     (jobTitle) => `Job-Titel: '${jobTitle}'`    , 
-'proAnalytics.search.externalJobTitle':     (jobTitle) => `Externer Job-Titel: '${jobTitle}'`    , 
-'proAnalytics.search.postingId':     (id) => `Stellennummer: '${id}'`    , 
-'proAnalytics.search.publicationId':     (id) => `Publikationsnummer: '${id}'`    , 
-'proAnalytics.search.orderId':     (id) => `Auftragsnummer: '${id}'`    , 
-'proAnalytics.dateRange.autoCorrectionWarning':     ({ start, end }) =>
-		`Es stehen Daten der letzten zwei Jahre zur VerfÃ¼gung. Ihr Filter wurde dementsprechend angepasst.`    , 
-'proAnalytics.dictionaries.error':     ({ logNumber }) =>
-		'Filter Dictionaries konnte nicht aktualisiert werden. Technische Details finden Sie im Log #${logNumber}.'    , 
-'proAnalytics.search.error':     ({ logNumber }) =>
-		`Die Suche ist fehlgeschlagen. Technische Details finden Sie im Log #${logNumber}.`    , 
-'proAnalytics.jobCount.error':     ({ logNumber }) =>
-		`Anzahl Stellen konnte nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`    , 
-'proAnalytics.performance.error':     ({ logNumber }) =>
-		`Daten von Performance konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`    , 
-'proAnalytics.candidateJourney.error':     ({ logNumber }) =>
-		`Daten von Candidate Journey konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`    , 
-'proAnalytics.costs.error':     ({ logNumber }) =>
-		`Kostendaten konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`    , 
-'proAnalytics.kpi.error':     ({ logNumber }) =>
-		`KPI-Daten konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`    , 
-'proAnalytics.careerCenter.error':     ({ logNumber }) =>
-		`Stellenmarktstatistiken konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`    , 
+'proAnalytics.search.termEverywhere': ({ searchTerm, hitCount }) =>
+		`Ergebnisse für '${searchTerm}' ${hitCount === undefined ? '' : `(${hitCount})`}`, 
+'proAnalytics.search.termInColumn': ({ searchTerm, fieldName, hitCount }) =>
+		`Ergebnisse für '${searchTerm}' in ${fieldName} (${hitCount})`, 
+'proAnalytics.search.resultInfo': ({ searchTerm, fieldName, hitCount }) =>
+		`${hitCount} ${hitCount === 1 ? 'Ergebnis' : 'Ergebnisse'} für ${searchTerm} in ${fieldName}`, 
+'proAnalytics.search.jobTitle': (jobTitle) => `Job-Titel: '${jobTitle}'`, 
+'proAnalytics.search.externalJobTitle': (jobTitle) => `Externer Job-Titel: '${jobTitle}'`, 
+'proAnalytics.search.postingId': (id) => `Stellennummer: '${id}'`, 
+'proAnalytics.search.publicationId': (id) => `Publikationsnummer: '${id}'`, 
+'proAnalytics.search.orderId': (id) => `Auftragsnummer: '${id}'`, 
+'proAnalytics.dateRange.autoCorrectionWarning': ({ start, end }) =>
+		`Es stehen Daten der letzten zwei Jahre zur Verfügung. Ihr Filter wurde dementsprechend angepasst.`, 
+'proAnalytics.dictionaries.error': ({ logNumber }) =>
+		'Filter Dictionaries konnte nicht aktualisiert werden. Technische Details finden Sie im Log #${logNumber}.', 
+'proAnalytics.search.error': ({ logNumber }) =>
+		`Die Suche ist fehlgeschlagen. Technische Details finden Sie im Log #${logNumber}.`, 
+'proAnalytics.jobCount.error': ({ logNumber }) =>
+		`Anzahl Stellen konnte nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`, 
+'proAnalytics.performance.error': ({ logNumber }) =>
+		`Daten von Performance konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`, 
+'proAnalytics.candidateJourney.error': ({ logNumber }) =>
+		`Daten von Candidate Journey konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`, 
+'proAnalytics.costs.error': ({ logNumber }) =>
+		`Kostendaten konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`, 
+'proAnalytics.kpi.error': ({ logNumber }) =>
+		`KPI-Daten konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`, 
+'proAnalytics.careerCenter.error': ({ logNumber }) =>
+		`Stellenmarktstatistiken konnten nicht geladen werden. Technische Details finden Sie im Log #${logNumber}.`, 
 'proAnalytics.moreFilters': '   Mehr Filter   ', 
 'proAnalytics.lessFilters': '   Weniger Filter   ', 
-'proAnalytics.resetFilters': '   Alle zurÃ¼cksetzen   ', 
-'proAnalytics.maxDatasetsNumberInfo':     (maxDatasetsNumber) =>
-		`Sie kÃ¶nnen maximal ${maxDatasetsNumber} Datasets anzeigen.`    , 
+'proAnalytics.resetFilters': '   Alle zurücksetzen   ', 
+'proAnalytics.maxDatasetsNumberInfo': (maxDatasetsNumber) =>
+		`Sie können maximal ${maxDatasetsNumber} Datasets anzeigen.`, 
 'proAnalytics.view.byJobAd': '   nach Stelle   ', 
 'proAnalytics.view.byMedium': '   nach Medium   ', 
 'proAnalytics.view.byFieldOfActivity': '   nach Berufsgruppe   ', 
-'proAnalytics.candidateJourney.trackingViewsWarning': '   FÃ¼r manche Medien kÃ¶nnen keine Aufrufe gemessen werden.   ', 
-'proAnalytics.candidateJourney.trackingClicksWarning': '   FÃ¼r manche Medien kÃ¶nnen keine Klicks gemessen werden.   ', 
-'proAnalytics.candidateJourney.trackingApplicationsWarning': '   FÃ¼r manche Medien kÃ¶nnen keine Bewerbungen gemessen werden.   ', 
+'proAnalytics.candidateJourney.trackingViewsWarning': '   Für manche Medien können keine Aufrufe gemessen werden.   ', 
+'proAnalytics.candidateJourney.trackingClicksWarning': '   Für manche Medien können keine Klicks gemessen werden.   ', 
+'proAnalytics.candidateJourney.trackingApplicationsWarning': '   Für manche Medien können keine Bewerbungen gemessen werden.   ', 
 'proAnalytics.candidateJourney.trackingViewsInfo': '   Die ausgewiesene Statistik weist die korrekten Zahlen auf.   ', 
 'proAnalytics.candidateJourney.trackingClicksInfo': '   Die ausgewiesene Statistik weist die korrekten Zahlen auf.   ', 
 'proAnalytics.candidateJourney.trackingApplicationsInfo': '   Die ausgewiesene Statistik weist die korrekten Zahlen auf.   ', 
@@ -176,19 +176,19 @@ export default {
 'country.greatBritain': '   Grossbritannien   ', 
 'country.unitedKingdom': '   Grossbritannien   ', 
 'country.germany': '   Deutschland   ', 
-'country.austria': '   Ã–sterreich   ', 
+'country.austria': '   Österreich   ', 
 'country.france': '   Frankreich   ', 
 'country.italy': '   Italien   ', 
 'country.switzerland': '   Schweiz   ', 
 'language': '   Sprache   ', 
 'language.english': '   Englisch   ', 
 'language.german': '   Deutsch   ', 
-'language.french': '   FranzÃ¶sisch   ', 
+'language.french': '   Französisch   ', 
 'language.italian': '   Italienisch   ', 
 'language.swissGerman': '   Schweizerdeutsch   ', 
 'settings': '   Einstellungen   ', 
 'settings.manageMediaList': '   Medienliste verwalten   ', 
-'settings.yourAccessData': '   Ihre Zugangsdaten fÃ¼r den JobBooster   ', 
+'settings.yourAccessData': '   Ihre Zugangsdaten für den JobBooster   ', 
 'settings.password.title': '   Login & Passwort   ', 
 'help': '   Hilfe   ', 
 'cancel': '   Abbrechen   ', 
@@ -220,7 +220,7 @@ export default {
 'industry': '   Branche   ', 
 'allIndustries': '   Alle Branchen   ', 
 'atsId': '   Interne ID oder ATS-ID   ', 
-'apply': '   Ãœbernehmen   ', 
+'apply': '   Übernehmen   ', 
 'validator.username.required': '   Bitte geben Sie Ihren Benutzernamen an.   ', 
 'validator.password.required': '   Bitte geben Sie Ihr Passwort an.   ', 
 'validator.email.required': '   Bitte geben Sie die E-Mail-Adresse an.   ', 
@@ -229,12 +229,12 @@ export default {
 'total': '   Total   ', 
 'cost': '   Kosten   ', 
 'date': '   Datum   ', 
-'other':     (count) => (count !== undefined ? `Andere (${count})` : 'Andere')    , 
+'other': (count) => (count !== undefined ? `Andere (${count})` : 'Andere'), 
 'showMore': '   Mehr   ', 
 'showLess': '   Weniger   ', 
 'search': '   Suchen   ', 
 'state': '   Zustand   ', 
-'overview': '   Ãœbersicht   ', 
+'overview': '   Übersicht   ', 
 'noData': '   Keine Daten   ', 
 'applications': '   Bewerbungen   ', 
 'clicks': '   Bewerberklicks   ', 
@@ -247,13 +247,13 @@ export default {
 'kpiStatistics.stellen': '   Stellen   ', 
 'kpiStatistics.publications': '   Publikationen   ', 
 'kpiStatistics.costs': '   Kosten   ', 
-'checkLog':     (logNumber) => `Technische Details finden Sie im Log #${logNumber}.`    , 
+'checkLog': (logNumber) => `Technische Details finden Sie im Log #${logNumber}.`, 
 'error': '   Fehler   ', 
-'unexpectedError':     ({ logNumber }) =>
-		`Etwas ist schiefgelaufen. Technische Details finden Sie im Log #${logNumber}.`    , 
-'refreshRequest': '   Bitte laden Sie die Applikation neu oder versuchen Sie es spÃ¤ter nochmals.   ', 
+'unexpectedError': ({ logNumber }) =>
+		`Etwas ist schiefgelaufen. Technische Details finden Sie im Log #${logNumber}.`, 
+'refreshRequest': '   Bitte laden Sie die Applikation neu oder versuchen Sie es später nochmals.   ', 
 'recentlyUsed': '   Zuletzt benutzt   ', 
 'information': '   Information   ', 
 'webMobile': '   Verteilung Web-Mobile   ', 
-'back': '   ZurÃ¼ck   ', 
+'back': '   Zurück   ', 
 }
