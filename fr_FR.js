@@ -223,4 +223,3 @@ export default {
 	"webMobile": "Distribution Web-Mobile",
 	"back": "Retour"
 }
-
