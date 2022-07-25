@@ -1,5 +1,3 @@
-import { getWeek } from 'date-fns'
-
 export default {
 	'dateFormatter': date => date ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - ',
     'dateFormatter.shortDate': date => date ? `${date.getDate().toString().padStart(2, '0')}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getFullYear()}` : ' - ',
